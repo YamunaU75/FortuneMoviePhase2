@@ -93,7 +93,7 @@ Above Visualization shows Anthon Baker, Aleksandr Bible, Mahershala Ali, Ryo Nar
 **Directors for Sci-Fi:** Similarly,  Filtering movie_basics with rating greater than 7 and joining table principals & table persons for famous movie directors & actors with best rating & total number of movies they have done. Visualizing Directors in USA with rating > 7 for Sci-Fi.
 
 <p align="center">
-    <img src = "https://github.com/YamunaU75/FortuneMoviePhase2/blob/main/images/Actors_scifi.png" width="750" height="579"
+    <img src = "https://github.com/YamunaU75/FortuneMoviePhase2/blob/main/images/Linegraph_scifi.png" width="750" height="579"
 </p>
 
 Above Visualization shows Joe Russon, Anthony Russo, Ryan Knight, Timothy Thomas & Felix Catala are top 5 directors with best ratings and 
