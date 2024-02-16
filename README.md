@@ -36,7 +36,9 @@ https://www.themoviedb.org/talk/5daf6eb0ae36680011d7e6ee >
 ## Dataset Evaluation & Visualization:
 
 **Tableau Dashboard:** https://public.tableau.com/app/profile/yamuna.umapathy/viz/FortuneMovieProject1/Dashboard1 
-
+<p align="center">
+  <img src = "https://github.com/YamunaU75/FortuneMoviePhase2/blob/main/images/Tableau.png" width="600" height="617"
+</p>
 
 **Top Genres:** 
 We were filtering the dataset with mean `vote_average`, TheMovieDB Dataset was used for visualizing top 10 genres based on their `vote_average` and `genre_list`. Analysis shows Animation, Romance, Drama and Science Fiction was the trending genres with highest ratings.
