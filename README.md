@@ -135,10 +135,10 @@ Above Visualization shows Alison Kam, Mitchell Campos, Victoria Holt, Jason Pete
 ## Repository Structure
 
 ```
-├── zippedData
 ├── Images
+├── zippedData
 ├── .gitignore
-├── presentation.pdf
+├── presentation
 ├── index.ipynb
 └── README.md
 ```
