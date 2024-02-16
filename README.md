@@ -1,4 +1,8 @@
 # Popcorn Time!!! Fortune Movie Productions getting ready to entertain you
+<p align="center">
+  <img src = "https://github.com/YamunaU75/FortuneMoviePhase2/blob/main/images/BoxOffice_picture.jpg" width="612" height="408"
+</p>
+
 
 ## Business Problem
 
@@ -80,15 +84,21 @@ who made more movies for Animation.
 <p align="center">
 
 
+Above Visualization shows Anthon Baker, Aleksandr Bible, Mahershala Ali, Ryo Narita & Jason Boarswain are top Actors for Animation with best ratings. 
+
 **Directors for Sci-Fi:** Similarly,  Filtering movie_basics with rating greater than 7 and joining table principals & table persons for famous movie directors & actors with best rating & total number of movies they have done. Visualizing Directors in USA with rating > 7 for Sci-Fi.
 
 <p align="center">
     <img src = "https://github.com/YamunaU75/FortuneMoviePhase2/blob/main/images/Linegraph_scifi.png" width="750" height="579"
 </p>
 
+Above Visualization shows Joe Russon, Anthony Russo, Ryan Knight, Timothy Thomas & Felix Catala are top 5 directors with best ratings and 
+who made more movies for Sci-Fi.
+
 **Actors for Sci-Fi**: Similarly, Filtering Sql database with average rating greater than 7 for Best Actors for Sci-Fi. Here, we are joining Tables movie_basics, movie_ratings, movie_akas, principals and persons to filter data who are Best Actors for Sci-Fi. 
 <p align="center">
 
+Above Visualization shows Alison Kam, Mitchell Campos, Victoria Holt, Jason Peter Kennedy and Heath Carr are top Actors for Sci-Fi with best ratings. 
 
 **Release Day:** Finally, we want to see what day of the week works best for movie release and earns best revenue. We are using TheMovieDB dataset, and visualizing `popularity` vs `release_day`. Analysis shows FRIDAY is the best day which earns highest revenue in movie industry. 
 
@@ -99,9 +109,13 @@ who made more movies for Animation.
 ## Conclusion & Recommendations:
 
 **Genres:** Based on our analysis, top 4 genres are Animation and Sci-Fi.
+
 **Revenue:** Animation 10-15% revenue increase, Sci-Fi has 50-70% revenue increase, Drama has no gain & no loss.
+
 **Production Budget:** Considering budget 70+ million for Animation, and 35+M for Sci-Fi.
+
 **Directors & Actors:** Sorted Best Directors & Actors based on ratings for Animation & Sci-Fi.
+
 **Release Day:** Friday is recommended to be best day for release day, earns more revenue in the movie industry.
 
 ## Next Steps:
