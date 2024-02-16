@@ -31,12 +31,12 @@ Dataset Box Office has columns title, studio, domestic_gross, foreign_gross & ye
 We used IMDB database which has 8 Tables, 3 of the tables had necessary columns such as Genres, NumVotes, AverageRating ... for analysis. Similarly, Dataset TheMovieDB & TheNumbers were used to find which genre made Box office hit, and collected high revenue domestically & worldwide. 
 
 For additional info regarding genre names and their corresponding numbers used in TheMovieDB Dataset for Data Cleaning, following source was used:
-<a href = https://www.themoviedb.org/talk/5daf6eb0ae36680011d7e6ee >
+https://www.themoviedb.org/talk/5daf6eb0ae36680011d7e6ee >
 
 ## Dataset Evaluation & Visualization:
 
-**Tableau Dashboard:** https://public.tableau.com/app/profile/yamuna.umapathy/viz/FortuneMovieProject/Dashboard1?publish=yes
-<p align="center">
+**Tableau Dashboard:** https://public.tableau.com/app/profile/yamuna.umapathy/viz/FortuneMovieProject1/Dashboard1 
+
 
 **Top Genres:** 
 We were filtering the dataset with mean `vote_average`, TheMovieDB Dataset was used for visualizing top 10 genres based on their `vote_average` and `genre_list`. Analysis shows Animation, Romance, Drama and Science Fiction was the trending genres with highest ratings.
@@ -81,15 +81,17 @@ Above Visualization shows Don Hall, Rich Moore, Stephen Anderson, Chris Mackay &
 who made more movies for Animation. 
 
 **Actors for Animation**: Filtering Sql database with average rating greater than 7 for Best Actors for Animation. Here, we are joining Tables movie_basics, movie_ratings, movie_akas, principals and persons to filter data who are Best Actors for Animation. 
-<p align="center">
 
+<p align="center">
+ <img src = "https://github.com/YamunaU75/FortuneMoviePhase2/blob/main/images/Actorslist.png" width = "750", height = "232"
+</p>
 
 Above Visualization shows Anthon Baker, Aleksandr Bible, Mahershala Ali, Ryo Narita & Jason Boarswain are top Actors for Animation with best ratings. 
 
 **Directors for Sci-Fi:** Similarly,  Filtering movie_basics with rating greater than 7 and joining table principals & table persons for famous movie directors & actors with best rating & total number of movies they have done. Visualizing Directors in USA with rating > 7 for Sci-Fi.
 
 <p align="center">
-    <img src = "https://github.com/YamunaU75/FortuneMoviePhase2/blob/main/images/Linegraph_scifi.png" width="750" height="579"
+    <img src = "https://github.com/YamunaU75/FortuneMoviePhase2/blob/main/images/Actors_scifi.png" width="750" height="579"
 </p>
 
 Above Visualization shows Joe Russon, Anthony Russo, Ryan Knight, Timothy Thomas & Felix Catala are top 5 directors with best ratings and 
@@ -97,6 +99,8 @@ who made more movies for Sci-Fi.
 
 **Actors for Sci-Fi**: Similarly, Filtering Sql database with average rating greater than 7 for Best Actors for Sci-Fi. Here, we are joining Tables movie_basics, movie_ratings, movie_akas, principals and persons to filter data who are Best Actors for Sci-Fi. 
 <p align="center">
+ <img src = "https://github.com/YamunaU75/FortuneMoviePhase2/blob/main/images/Actorslist.png" width = "750", height = "232"
+</p>
 
 Above Visualization shows Alison Kam, Mitchell Campos, Victoria Holt, Jason Peter Kennedy and Heath Carr are top Actors for Sci-Fi with best ratings. 
 
