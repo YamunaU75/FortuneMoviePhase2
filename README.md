@@ -50,7 +50,7 @@ We were filtering the dataset with mean `vote_average`, TheMovieDB Dataset was u
 Based on above analysis, we were analyzing top 4 genre categories with `genre_list` and `vote_average` standings using Boxplot.
 
 <p align="center">
-  <img src = "https://github.com/YamunaU75/FortuneMoviePhase2/blob/main/images/Bargraph1.png" width="750" height="568"
+  <img src = "https://github.com/YamunaU75/FortuneMoviePhase2/blob/main/images/Boxplot.png" width="750" height="568"
   
 </p>
 
